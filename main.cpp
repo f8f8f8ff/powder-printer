@@ -82,7 +82,7 @@ int main(int argc, char* argv[])
         return 1;
     }
 
-    outFile << "Date,Name,Estimated Time,Real Time,Time Error,Estimated Binder,Real Binder,Binder Error,Failed,Error Code" << endl;
+    outFile << "Date,Name,Estimated Time,Real Time,Time Error,Estimated Binder,Real Binder,Binder Error,Failed,Error Code,Printer IP,Printer Model" << endl;
     for (auto d: vPrintData)
     {
         outFile << d.getCSV() << endl;

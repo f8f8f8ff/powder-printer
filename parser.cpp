@@ -2,7 +2,7 @@
 
 using namespace std;
 
-regex expr ("^(Path|Estimated Time|Estimated   Clear|Binder usage|Duration|Started|  Clear Binder useage|Error Code).*");
+regex expr ("^(Path|Estimated Time|Estimated   Clear|Binder usage|Duration|Started|  Clear Binder useage|Error Code|Printer).*");
 
 PrintData::PrintData()
 {
@@ -17,6 +17,8 @@ PrintData::PrintData()
     errorBinder = 0.0;
     errorCode = 0;
     failed = true;
+    printerIp = "";
+    printerModel = "";
 }
 
 void PrintData::processError()
@@ -41,7 +43,9 @@ string PrintData::getCSV()
     stream << realBinder << ",";
     stream << errorBinder << ",";
     stream << failed << ",";
-    stream << errorCode;
+    stream << errorCode << ",";
+    stream << printerIp << ",";
+    stream << printerModel;
     csv = stream.str();
     return csv;
 }
@@ -79,6 +83,16 @@ bool PrintData::good()
         cout << "Bad data: no realBinder" << endl;
         g = false;
     }
+    if (printerIp == "")
+    {
+        cout << "Bad data: no printerIp" << endl;
+        g = false;
+    }
+    if (printerModel == "")
+    {
+        cout << "Bad data: no printerModel" << endl;
+        g = false;
+    }
     return g;
 }
 
@@ -94,12 +108,14 @@ void PrintData::print()
     cout << "errorBinder: " << errorBinder << endl;
     cout << "failed: " << ((failed) ? "true" : "false") << endl;
     cout << "errorCode: " << errorCode << endl;
+    cout << "printerIp: " << printerIp << endl;
+    cout << "printerModel: " << printerModel << endl;
     cout << endl;
 }
 
 void PrintData::printCSV()
 {
-    cout << "Date,Name,Estimated Time,Real Time,Time Error,Estimated Binder,Real Binder,Binder Error,Failed,Error Code" << endl;
+    cout << "Date,Name,Estimated Time,Real Time,Time Error,Estimated Binder,Real Binder,Binder Error,Failed,Error Code,Printer IP,Printer Model" << endl;
     cout << getCSV() << endl;
 }
 
@@ -247,6 +263,28 @@ void processLine(const string &line, PrintData &data)
         {
             data.failed = true;
             data.errorCode = errorCode;
+        }
+    }
+
+    // get printer IP and model
+    else if (sm[1] == "Printer")
+    {
+        stringstream stream(line);
+        string substr;
+        vector<string> split;
+        while (getline(stream, substr, ':'))
+        {
+            split.push_back(substr);
+        }
+        if (split.size() == 3)
+        {
+            for (int i=0; i<split.size(); ++i)
+            {
+                split[i].erase(split[i].begin());
+                split[i].erase(split[i].end()-1);
+            }
+            data.printerIp = split[1];
+            data.printerModel = split[2];
         }
     }
 }

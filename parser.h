@@ -31,6 +31,8 @@ public:
     float errorBinder;
     int errorCode;
     bool failed;
+    string printerIp;
+    string printerModel;
 };
 
 void processLine(const string &line, PrintData &data);
