@@ -10,7 +10,7 @@
 using namespace std;
 
 const string jobReportCSVHeader =
-    "Report Path,Date,Name,Estimated Time,Real Time,Time Error,Estimated Binder,Real Binder,Binder Error,Failed,Error Code,Printer IP,Printer Model";
+    "Report Path,Date,Name,Volume,Estimated Time,Real Time,Time Error,Estimated Binder,Real Binder,Binder Error,Failed,Error Code,Printer IP,Printer Model";
 
 class JobReport
 {
@@ -39,5 +39,6 @@ public:
     bool failed;
     string printerIp;
     string printerModel;
+    float volume;
 };
 

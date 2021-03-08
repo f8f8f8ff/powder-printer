@@ -2,7 +2,7 @@
 
 using namespace std;
 
-regex expr ("^(Path|Estimated Time|Estimated   Clear|Binder usage|Duration|Started|  Clear Binder useage|Error Code|Printer).*");
+regex expr ("^(Path|Estimated Time|Estimated   Clear|Binder usage|Duration|Started|  Clear Binder useage|Error Code|Printer|Model).*");
 
 JobReport::JobReport()
 {
@@ -19,6 +19,7 @@ JobReport::JobReport()
     failed = true;
     printerIp = "";
     printerModel = "";
+    volume = 0.0;
 }
 
 void JobReport::processError()
@@ -37,6 +38,7 @@ string JobReport::getCSV()
     stream << reportPath << ",";
     stream << date << ",";
     stream << path << ",";
+    stream << volume << ",";
     stream << estTime << ",";
     stream << realTime << ",";
     stream << errorTime << ",";
@@ -99,14 +101,20 @@ bool JobReport::good()
         cout << "Bad data: no printerModel" << endl;
         g = false;
     }
+    if (volume == 0.0)
+    {
+        cout << "Bad data: no volume" << endl;
+        g = false;
+    }
     return g;
 }
 
 void JobReport::print()
 {
     cout << "reportPath: " << reportPath << endl;
-    cout << "path: " << path << endl;
     cout << "date: " << date << endl;
+    cout << "path: " << path << endl;
+    cout << "volume: " << volume << endl;
     cout << "estTime: " << estTime << endl;
     cout << "realTime: " << realTime << endl;
     cout << "estBinder: " << estBinder << endl;
@@ -293,6 +301,19 @@ void JobReport::processLine(const string &line)
             printerIp = split[1];
             printerModel = split[2];
         }
+    }
+
+    // get volume
+    else if (sm[1] == "Model")
+    {
+        stringstream stream(line);
+        string substr;
+        float v;
+        while (getline(stream, substr, '\t'))
+        {
+            stringstream(substr) >> v;
+        }
+        volume += v / 0.061024; // convert to cu cm from cu in
     }
 }
 
