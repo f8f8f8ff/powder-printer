@@ -46,23 +46,23 @@ int main(int argc, char* argv[])
 
     vector<string> filePaths;
     filePaths.assign(argv + pathsOffset, argv + argc);
-    vector<PrintData> vPrintData;
+    vector<JobReport> jobReports;
 
     // parse files
     for (auto file : filePaths)
     {
-        PrintData data;
+        JobReport data;
         data.reportPath = file;
-        if (processFile(file, data))
+        if (data.processFile(file))
         {
-            vPrintData.push_back(data);
+            jobReports.push_back(data);
         }
     }
 
     if (VERBOSE)
     {
         cout << "--------------------" << endl;
-        for (auto d : vPrintData)
+        for (auto d : jobReports)
         {
             cout << "REPORT: [" << d.reportPath << "]" << endl;
             if (d.good())
@@ -82,8 +82,8 @@ int main(int argc, char* argv[])
         return 1;
     }
 
-    outFile << "Date,Name,Estimated Time,Real Time,Time Error,Estimated Binder,Real Binder,Binder Error,Failed,Error Code,Printer IP,Printer Model" << endl;
-    for (auto d: vPrintData)
+    outFile << jobReportCSVHeader << endl;
+    for (auto d: jobReports)
     {
         outFile << d.getCSV() << endl;
     }

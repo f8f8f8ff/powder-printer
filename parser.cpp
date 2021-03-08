@@ -4,7 +4,7 @@ using namespace std;
 
 regex expr ("^(Path|Estimated Time|Estimated   Clear|Binder usage|Duration|Started|  Clear Binder useage|Error Code|Printer).*");
 
-PrintData::PrintData()
+JobReport::JobReport()
 {
     reportPath = "";
     path = "";
@@ -21,7 +21,7 @@ PrintData::PrintData()
     printerModel = "";
 }
 
-void PrintData::processError()
+void JobReport::processError()
 {
     if (!failed)
     {
@@ -30,10 +30,11 @@ void PrintData::processError()
     }
 }
 
-string PrintData::getCSV()
+string JobReport::getCSV()
 {
     string csv;
     stringstream stream;
+    stream << reportPath << ",";
     stream << date << ",";
     stream << path << ",";
     stream << estTime << ",";
@@ -50,9 +51,14 @@ string PrintData::getCSV()
     return csv;
 }
 
-bool PrintData::good()
+bool JobReport::good()
 {
     bool g = true;
+    if (reportPath == "")
+    {
+        cout << "Bad data: no reportPath" << endl;
+        g = false;
+    }
     if (date == "")
     {
         cout << "Bad data: no date" << endl;
@@ -96,8 +102,9 @@ bool PrintData::good()
     return g;
 }
 
-void PrintData::print()
+void JobReport::print()
 {
+    cout << "reportPath: " << reportPath << endl;
     cout << "path: " << path << endl;
     cout << "date: " << date << endl;
     cout << "estTime: " << estTime << endl;
@@ -113,13 +120,13 @@ void PrintData::print()
     cout << endl;
 }
 
-void PrintData::printCSV()
+void JobReport::printCSV()
 {
-    cout << "Date,Name,Estimated Time,Real Time,Time Error,Estimated Binder,Real Binder,Binder Error,Failed,Error Code,Printer IP,Printer Model" << endl;
+    cout << jobReportCSVHeader << endl;
     cout << getCSV() << endl;
 }
 
-void processLine(const string &line, PrintData &data)
+void JobReport::processLine(const string &line)
 {
     smatch sm;
     regex_match(line, sm, expr);
@@ -145,7 +152,7 @@ void processLine(const string &line, PrintData &data)
         {
             getline(stream, substr, '\\');
         }
-        data.path = substr;
+        path = substr;
         //cout << "path: " << path << endl;
     }
 
@@ -170,7 +177,7 @@ void processLine(const string &line, PrintData &data)
         {
             minutes = values[0];
         }
-        data.estTime = minutes;
+        estTime = minutes;
         //cout << "estTime: " << estTime << endl;
     }
 
@@ -188,7 +195,7 @@ void processLine(const string &line, PrintData &data)
                 values.push_back(v);
         }
         minutes = values[0]*60 + values[1];
-        data.realTime = minutes;
+        realTime = minutes;
         //cout << "realTime: " << realTime << endl;
     }
 
@@ -203,7 +210,7 @@ void processLine(const string &line, PrintData &data)
             if(stringstream(substr) >> binder)
                 break;
         }
-        data.estBinder = (int)binder;
+        estBinder = (int)binder;
         //cout << "estBinder: " << estBinder << endl;
     }
 
@@ -218,7 +225,7 @@ void processLine(const string &line, PrintData &data)
             if(stringstream(substr) >> binder)
                 break;
         }
-        data.realBinder = (int)binder;
+        realBinder = (int)binder;
         //cout << "realBinder: " << realBinder << endl;
     }
 
@@ -239,13 +246,13 @@ void processLine(const string &line, PrintData &data)
         stringstream().swap(stream);
         stream.fill('0');
         stream << y << "/" << setw(2) << m << "/" << setw(2) << d;
-        stream >> data.date;
+        date = stream.str();
     }
 
     // search for "Clear Binder Useage" line as evidence of a completed print.
     else if (sm[1] == "  Clear Binder useage")
     {
-        data.failed = false;
+        failed = false;
     }
 
     // search for Error Code
@@ -261,8 +268,8 @@ void processLine(const string &line, PrintData &data)
         }
         if (errorCode != 0)
         {
-            data.failed = true;
-            data.errorCode = errorCode;
+            failed = true;
+            errorCode = errorCode;
         }
     }
 
@@ -283,16 +290,19 @@ void processLine(const string &line, PrintData &data)
                 split[i].erase(split[i].begin());
                 split[i].erase(split[i].end()-1);
             }
-            data.printerIp = split[1];
-            data.printerModel = split[2];
+            printerIp = split[1];
+            printerModel = split[2];
         }
     }
 }
 
 // 0 error, 1 success
-int processFile(const string &path, PrintData &data)
+int JobReport::processFile(const string &path)
 {
     cout << "Processing report \"" << path << "\"... " << endl;
+
+    stringstream stream(path);
+    while (getline(stream,reportPath,'/')) { }
 
     fstream file;
     file.open(path.c_str(), ios::in);
@@ -327,15 +337,15 @@ int processFile(const string &path, PrintData &data)
         // remove \r character if present
         line.erase(remove(line.begin(), line.end(), '\r'), line.end());
         //cout << "line " << lineNum << ": " << line << endl;
-        processLine(line, data);
+        processLine(line);
         //getchar();
     }
 
     file.close();
 
-    data.processError();
+    processError();
 
-    if (data.good())
+    if (good())
     {
         cout << "Success." << endl;
         return 1;

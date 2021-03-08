@@ -9,16 +9,22 @@
 
 using namespace std;
 
-class PrintData
+const string jobReportCSVHeader =
+    "Report Path,Date,Name,Estimated Time,Real Time,Time Error,Estimated Binder,Real Binder,Binder Error,Failed,Error Code,Printer IP,Printer Model";
+
+class JobReport
 {
 public:
-    PrintData();
+    JobReport();
 
     void processError();
     string getCSV();
     bool good();
     void print();
     void printCSV();
+
+    void processLine(const string &line);
+    int processFile(const string &path);
 
     string reportPath;
     string path;
@@ -35,5 +41,3 @@ public:
     string printerModel;
 };
 
-void processLine(const string &line, PrintData &data);
-int processFile(const string &path, PrintData &data);
