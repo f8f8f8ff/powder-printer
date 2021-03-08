@@ -4,11 +4,12 @@ ODIR	= obj
 _OBJ	= main.o parser.o
 OBJ	= $(patsubst %,$(ODIR)/%,$(_OBJ))
 
+all: powderlog
 
 %.o: %.cpp $(DEPS)
 	g++ -c -o $@ $< $(CFLAGS)
 
-main: main.o parser.o
+powderlog: main.o parser.o
 	g++ -o $@ $^ $(CFLAGS)
 
 test: test.o parser.o 
