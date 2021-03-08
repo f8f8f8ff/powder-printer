@@ -1,0 +1,13 @@
+3DPrint Version 1.03.8
+Path: D:\tree-hole.stl
+Model: tree-hole.stl                       1.00	 1.00	 0.37	 3.67	 0.37
+
+--------------
+Monochrome mode
+Estimated Time: 0 hours 23 mins
+Estimated   Clear Binder useage =  9.1577 ml
+--------------
+
+Finished @ 20200708::14:37 
+
+Duration: 0 hours; Job aborted by user @ 20200708::14:37 

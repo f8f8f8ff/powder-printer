@@ -1,0 +1,13 @@
+3DPrint Version 1.03.8
+Path: T:\2014 East Mountain\03. STUDIES\200622_Site Model\Powder Prints\A3_0713.stl
+Model: A3_0713.stl                         9.31	 5.79	 4.96	198.55	71.41
+
+--------------
+Monochrome mode
+Estimated Time: 7 hours 36 mins
+Estimated   Clear Binder useage = 235.9724 ml
+--------------
+
+Finished @ 20200715::10:18 
+
+Duration: 0 hours; Job aborted by user @ 20200715::10:18 

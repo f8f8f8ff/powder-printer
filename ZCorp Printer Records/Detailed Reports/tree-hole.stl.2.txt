@@ -1,0 +1,44 @@
+3DPrint Version 1.03.8
+Path: D:\tree-hole.stl
+Model: tree-hole.stl                       1.00	 1.00	 0.37	 3.67	 0.37
+
+--------------
+Monochrome mode
+Estimated Time: 0 hours 23 mins
+Estimated   Clear Binder useage =  9.1577 ml
+--------------
+Started @ 20200708::15:11 
+Firmware Version: 8.160.0.0
+Bleed Compensation ON
+Start layer: 0
+End layer: 94
+Total number of layers: 95
+Printer: 10.0.0.227 : ZPrinter 350 
+Computer: SB-125 
+Base Powder: ZP151
+Powder Type: ZP151
+Shell Saturation: 100%   Binder/Volume: 0.244
+Core Saturation: 100%   Binder/Volume: 0.122
+Colorfix file: 
+
+JobID: A48AF6B4A8B83354
+Waste Available start: 0 mL
+
+____
+Last printed layer: 95 @ 20200708::15:35 
+Binder usage for this job:    6.4 mL
+____
+
+  Clear Binder useage = 16.9579 ml  1.7 %  (    892520732 drops )
+Waste Available end: 0 mL
+
+----------------
+Compute time: 00::00::05
+Wait time: 00::22::54
+
+----------------
+
+
+Finished @ 20200708::15:36 
+
+Duration: 0 hours 24 mins 50 secs

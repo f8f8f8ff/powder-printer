@@ -1,0 +1,49 @@
+3DPrint Version 1.03.8
+Path: C:\Users\rvarin\Desktop\rock-test.stl
+Model: rock-test.stl                       1.45	 1.32	 0.85	 5.85	 0.86
+
+--------------
+Monochrome mode
+Estimated Time: 0 hours 53 mins
+Estimated   Clear Binder useage = 16.8485 ml
+--------------
+Started @ 20200728::09:42 
+Firmware Version: 8.160.0.0
+Bleed Compensation ON
+Start layer: 45
+End layer: 260
+Total number of layers: 216
+Printer: 169.254.49.170 : ZPrinter 350 
+Computer: SB-125 
+Base Powder: ZP151
+Powder Type: ZP151
+Shell Saturation: 100%   Binder/Volume: 0.244
+Core Saturation: 100%   Binder/Volume: 0.122
+Colorfix file: 
+
+JobID: 316A90A7EED7DED1
+Waste Available start: 0 mL
+
+____
+Last printed layer: 78 @ 20200728::09:52 
+Binder usage for this job:    0.0 mL
+____
+
+Error during printing @ 20200728::09:53 
+Error Code: 60802
+Error Message: Printer error 60802 (0)
+SERVO: comm error: 0x0
+
+  Clear Binder useage =  3.1668 ml  0.3 %  (    166675540 drops )
+Waste Available end: 0 mL
+
+----------------
+Compute time: 00::00::03
+Wait time: 00::11::26
+
+----------------
+
+
+Finished @ 20200728::09:53 
+
+Duration: 0 hours 11 mins 29 secs

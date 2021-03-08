@@ -1,0 +1,44 @@
+3DPrint Version 1.03.8
+Path: C:\Users\rvarin\Desktop\STLS\rock-test.stl
+Model: rock-test.stl                       1.55	 1.42	 0.92	 6.71	 1.05
+
+--------------
+Monochrome mode
+Estimated Time: 0 hours 58 mins
+Estimated   Clear Binder useage = 18.1471 ml
+--------------
+Started @ 20200810::16:46 
+Firmware Version: 8.164.0.0
+Bleed Compensation ON
+Start layer: 38
+End layer: 268
+Total number of layers: 231
+Printer: 169.254.49.180 : ZPrinter 350 
+Computer: SB-125 
+Base Powder: ZP151
+Powder Type: ZP151
+Shell Saturation: 100%   Binder/Volume: 0.244
+Core Saturation: 100%   Binder/Volume: 0.122
+Colorfix file: 
+
+JobID: 71C727932319DA81
+Waste Available start: 0 mL
+
+____
+Last printed layer: 269 @ 20200810::17:51 
+Binder usage for this job:   18.5 mL
+____
+
+  Clear Binder useage = 19.7907 ml  2.0 %  (   1041617976 drops )
+Waste Available end: 0 mL
+
+----------------
+Compute time: 00::00::08
+Wait time: 01::04::05
+
+----------------
+
+
+Finished @ 20200810::17:52 
+
+Duration: 1 hours 6 mins 29 secs

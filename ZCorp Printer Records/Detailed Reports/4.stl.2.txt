@@ -1,0 +1,13 @@
+3DPrint Version 1.03.8
+Path: E:\201211 EMR STL\4.stl
+Model: 4.stl                               9.65	 7.87	 2.97	429.15	93.60
+
+--------------
+Monochrome mode
+Estimated Time: 5 hours 26 mins
+Estimated   Clear Binder useage = 281.3681 ml
+--------------
+
+Finished @ 20201211::16:10 
+
+Duration: 0 hours; Job aborted by user @ 20201211::16:10 

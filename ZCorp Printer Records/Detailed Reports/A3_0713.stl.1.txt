@@ -1,0 +1,49 @@
+3DPrint Version 1.03.8
+Path: T:\2014 East Mountain\03. STUDIES\200622_Site Model\Powder Prints\A3_0713.stl
+Model: A3_0713.stl                         9.31	 5.79	 4.96	198.55	71.41
+
+--------------
+Monochrome mode
+Estimated Time: 7 hours 36 mins
+Estimated   Clear Binder useage = 235.9724 ml
+--------------
+Started @ 20200714::17:13 
+Firmware Version: 8.160.0.0
+Bleed Compensation ON
+Start layer: 0
+End layer: 1242
+Total number of layers: 1243
+Printer: 10.0.0.227 : ZPrinter 350 
+Computer: SB-125 
+Base Powder: ZP151
+Powder Type: ZP151
+Shell Saturation: 100%   Binder/Volume: 0.244
+Core Saturation: 100%   Binder/Volume: 0.122
+Colorfix file: 
+
+JobID: C2EEA490EC81E14A
+Waste Available start: 0 mL
+
+____
+Last printed layer: 7 @ 20200714::17:17 
+Binder usage for this job:    0.0 mL
+____
+
+Error during printing @ 20200714::17:21 
+Error Code: 2
+Error Message: Printer error 2 (0)
+Packet timeout
+
+  Clear Binder useage =  2.6201 ml  0.3 %  (    137898292 drops )
+Waste Available end: 0 mL
+
+----------------
+Compute time: 00::00::05
+Wait time: 00::07::47
+
+----------------
+
+
+Finished @ 20200714::17:21 
+
+Duration: 0 hours 7 mins 53 secs

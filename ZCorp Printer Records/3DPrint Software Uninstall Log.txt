@@ -1,0 +1,147 @@
+[09/18/2020 09:56:56] Success	Uninstall started: C:\Program Files (x86)\3DPrint Software\uninstallZPrint.exe
+[09/18/2020 09:56:56] Notice	Setup engine version: 9.5.1.0
+[09/18/2020 09:56:56] Notice	Product: 3DPrint Software, version 1.0.3.8
+[09/18/2020 09:56:56] Success	Language set: Primary = 9, Secondary = 1
+[09/18/2020 09:56:56] Success	Load plugin: C:\Program Files (x86)\3DPrint Software\Uninstall\IRZip.lmd
+[09/18/2020 09:56:56] Success	Include script: _SUF70_Global_Functions.lua
+[09/18/2020 09:56:56] Notice	Start project event: Global Functions
+[09/18/2020 09:56:56] Success	Run project event: Global Functions
+[09/18/2020 09:56:56] Success	Run uninstall event: On Startup
+[09/18/2020 09:56:56] Success	Display screen: Welcome to Uninstall
+[09/18/2020 09:56:57] Success	Run uninstall event: On Pre Uninstall
+[09/18/2020 09:56:57] Success	Display screen: One Progress Bar (While Uninstalling)
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Firmware\ProJet_160_260_360_460fw_v12.19.0.0.zdf
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\ZPrinterGUI.dll
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\ZMonitor.exe
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\ZPrinterGUI.dll
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\x60ManualAlign.exe
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Squares\Layer0010_Squares.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Squares\Layer0009_Squares.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Squares\Layer0008_Squares.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Squares\Layer0007_Squares.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Squares\Layer0006_Squares.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Squares\Layer0005_Squares.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Squares\Layer0004_Squares.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Squares\Layer0003_Squares.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Squares\Layer0002_Squares.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Squares\Layer0001_Squares.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Squares\Layer0000_Squares.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Diamonds\Layer0009_Diamonds.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Diamonds\Layer0008_Diamonds.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Diamonds\Layer0007_Diamonds.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Diamonds\Layer0006_Diamonds.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Diamonds\Layer0005_Diamonds.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Diamonds\Layer0004_Diamonds.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Diamonds\Layer0003_Diamonds.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Diamonds\Layer0002_Diamonds.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Diamonds\Layer0001_Diamonds.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Diamonds\Layer0000_Diamonds.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Bullseye\Layer0010_Bullseye.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Bullseye\Layer0009_Bullseye.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Bullseye\Layer0008_Bullseye.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Bullseye\Layer0007_Bullseye.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Bullseye\Layer0006_Bullseye.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Bullseye\Layer0005_Bullseye.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Bullseye\Layer0004_Bullseye.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Bullseye\Layer0003_Bullseye.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Bullseye\Layer0002_Bullseye.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Bullseye\Layer0001_Bullseye.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Bullseye\Layer0000_Bullseye.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\BigCircles\Layer0010_BigCircles.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\BigCircles\Layer0009_BigCircles.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\BigCircles\Layer0008_BigCircles.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\BigCircles\Layer0007_BigCircles.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\BigCircles\Layer0006_BigCircles.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\BigCircles\Layer0005_BigCircles.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\BigCircles\Layer0004_BigCircles.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\BigCircles\Layer0003_BigCircles.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\BigCircles\Layer0002_BigCircles.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\BigCircles\Layer0001_BigCircles.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\BigCircles\Layer0000_BigCircles.zcl
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Tiamat_63_151_zbd_v5.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Tiamat_63_151_zbd_v5.vdpp
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Help\95051 Core Recycling Station User Guide.pdf
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Help\95055 Core Recycling Unit User Manual.pdf
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Firmware\ProJet860fw_v9.246.z42
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Firmware\Projet660fw_v5.243.z42
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Utilities\3DSRegPerm.exe
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Utilities\vcredist_x86.exe
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Samples\TestFile.zbd
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Samples\TestCubeSmall.zbd
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Help\ZErrTran.txt
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Help\ZErrorHelpMap.txt
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Help\2295052ProJetx60ProUserGuide.pdf
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Help\22950483DPrintUserGuide.pdf
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Help\2295043ProJetx60SeriesUserGuide.pdf
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Help\09596 End User Software License Agreement.pdf
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Help\09596 End User Software License Agreement.chm
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\ZPrinterGUI.dll
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Zpr.dll
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\ZErrTran.txt
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\ZErrorHelpMap.txt
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z810_58_130_zmx_v1.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z810_58_130_zbd_v1.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z810_58_130_wax_v3.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\Z650_63_151_zbd_v3.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z650_63_151_zbd_v3.vdpp
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z650_63_151_zbd_v2.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z650_63_151_zbd_v2.vdpp
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z650_61_150_zbd_v1.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z650_61_150_zbd_v1.vdpp
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z650_61_131_zbd_v1.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z450_63_151_zbd_v1.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z450_63_150_zbd_v1.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z450_61_140_zbd_v1.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\z450_59_130_zbd_v1.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\spectrum_61_150_zbd_v1.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\spectrum_60_140_zbd_v1.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\spectrum_60_131_zbd_v2.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\spectrum_58_130_zbd_v2.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\spectrum_58_130_zbd_v1.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\spectrum_58_130_wax_v2.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\spectrum_56_102_v8.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\sfxread.dll
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\PMaint.txt
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\PJ660pro_PXL_CBond_Vivid.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\PJ660pro_PXL_CBond_Vivid.vdpp
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\PJ660pro_PXL_CBond_Natural.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\PJ660pro_PXL_CBond_Natural.vdpp
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\PJ460c_PXL_CBond_v1.zcc
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\BuildRecipes.txt
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\ANSMTP.dll
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\3DS_Logo.ico
+[09/18/2020 09:56:57] Success	Remove file: C:\Program Files (x86)\3DPrint Software\3DPrint.exe
+[09/18/2020 09:56:57] Success	Remove shortcut: C:\Users\Public\Desktop\3DPrint.lnk
+[09/18/2020 09:56:57] Success	Remove shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\3DPrint Software\3DPrint.lnk
+[09/18/2020 09:56:57] Success	Remove shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\3DPrint Software\2209596 End User Software License Agreement.lnk
+[09/18/2020 09:56:57] Success	Remove shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\3DPrint Software\2295043 ProJet x60 Series User Guide.lnk
+[09/18/2020 09:56:57] Success	Remove shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\3DPrint Software\2295048 3DPrint User Guide.lnk
+[09/18/2020 09:56:57] Success	Remove shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\3DPrint Software\2295052 ProJetx60 Pro User Guide.lnk
+[09/18/2020 09:56:57] Success	Remove shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\3DPrint Software\95055 Core Recycling Unit User Manual.lnk
+[09/18/2020 09:56:57] Success	Remove shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\3DPrint Software\95051 Core Recycling Station User Guide.lnk
+[09/18/2020 09:56:57] Success	Remove shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\3DPrint Software\Uninstall 3DPrint Software.lnk
+[09/18/2020 09:56:57] Success	Run uninstall event: On Post Uninstall
+[09/18/2020 09:56:57] Success	Display screen: Finished Uninstall
+[09/18/2020 09:56:58] Success	Run uninstall event: On Shutdown
+[09/18/2020 09:56:58] Success	Remove uninstall support file: C:\Program Files (x86)\3DPrint Software\Uninstall\IRIMG1.BMP
+[09/18/2020 09:56:58] Success	Remove uninstall support file: C:\Program Files (x86)\3DPrint Software\Uninstall\IRZip.lmd
+[09/18/2020 09:56:58] Success	Remove uninstall support file: C:\Program Files (x86)\3DPrint Software\Uninstall\3DS_Logo.ico
+[09/18/2020 09:56:58] Success	Remove uninstall data file: C:\Program Files (x86)\3DPrint Software\Uninstall\uninstallZPrint.dat
+[09/18/2020 09:56:58] Success	Remove uninstall config file: C:\Program Files (x86)\3DPrint Software\Uninstall\uninstallZPrint.xml
+[09/18/2020 09:56:58] Success	Remove uninstall CP entry from Registry: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\3DPrint Software1.0.3.8
+[09/18/2020 09:56:58] Success	Remove folder: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\BigCircles
+[09/18/2020 09:56:58] Success	Remove folder: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Diamonds
+[09/18/2020 09:56:58] Success	Remove folder: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Bullseye
+[09/18/2020 09:56:58] Success	Remove folder: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles\Squares
+[09/18/2020 09:56:58] Success	Remove folder: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align\AlignFiles
+[09/18/2020 09:56:58] Success	Remove folder: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\3DPrint Software
+[09/18/2020 09:56:58] Success	Remove folder: C:\Program Files (x86)\3DPrint Software\Diagnostics\x60 Manual Align
+[09/18/2020 09:56:58] Success	Remove folder: C:\Program Files (x86)\3DPrint Software\Diagnostics
+[09/18/2020 09:56:58] Success	Remove folder: C:\Program Files (x86)\3DPrint Software\Utilities
+[09/18/2020 09:56:58] Success	Remove folder: C:\Program Files (x86)\3DPrint Software\Uninstall
+[09/18/2020 09:56:58] Success	Remove folder: C:\Program Files (x86)\3DPrint Software\Firmware
+[09/18/2020 09:56:58] Success	Remove folder: C:\Program Files (x86)\3DPrint Software\Samples
+[09/18/2020 09:56:58] Success	Remove folder: C:\Program Files (x86)\3DPrint Software\Help
+[09/18/2020 09:56:58] Success	Remove folder on reboot: C:\Program Files (x86)\3DPrint Software
+[09/18/2020 09:56:58] Notice	Exit uninstall process (Return code: 0)
+

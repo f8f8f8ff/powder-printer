@@ -1,0 +1,48 @@
+3DPrint Version 1.03.8
+Path: E:\210205_SHM No Site STL\210205_A1.stl
+Model: 210205_A1.stl                      10.00	 8.00	 6.07	326.35	144.82
+
+--------------
+Monochrome mode
+Estimated Time: 10 hours 37 mins
+Estimated   Clear Binder useage = 412.9368 ml
+--------------
+Started @ 20210210::09:48 
+Firmware Version: 12.19.0.0
+Bleed Compensation ON
+Start layer: 0
+End layer: 1518
+Total number of layers: 1519
+Printer: 10.0.0.205 : Projet 360 
+Computer: SB-125 
+Base Powder: VisiJet PXL - Pastel
+Powder Type: VisiJet PXL - Pastel
+Shell Saturation: 100%   Binder/Volume: 0.244
+Core Saturation: 100%   Binder/Volume: 0.122
+Colorfix file: 
+
+JobID: CD858372A7EEAF9C
+Waste Available start: 0 mL
+
+____
+Last printed layer: 433 @ 20210210::10:39 
+Binder usage for this job:  206.5 mL
+____
+
+Error during printing @ 20210210::12:44 
+Error Code: 40801
+Error Message: Printer error 40801 (0)
+Headcard power failed
+
+Waste Available end: 0 mL
+
+----------------
+Compute time: 00::01::18
+Wait time: 02::54::48
+
+----------------
+
+
+Finished @ 20210210::12:44 
+
+Duration: 2 hours 56 mins 6 secs

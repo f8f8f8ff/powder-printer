@@ -1,0 +1,44 @@
+3DPrint Version 1.03.8
+Path: E:\201023 STL\12.stl
+Model: 12.stl                              7.34	 7.07	 2.17	251.10	38.40
+
+--------------
+Monochrome mode
+Estimated Time: 3 hours 59 mins
+Estimated   Clear Binder useage = 138.8655 ml
+--------------
+Started @ 20201114::16:03 
+Firmware Version: 12.19.0.0
+Bleed Compensation ON
+Start layer: 0
+End layer: 542
+Total number of layers: 543
+Printer: 169.254.49.170 : Projet 360 
+Computer: SB-125 
+Base Powder: VisiJet PXL - Pastel
+Powder Type: VisiJet PXL - Pastel
+Shell Saturation: 100%   Binder/Volume: 0.244
+Core Saturation: 100%   Binder/Volume: 0.122
+Colorfix file: 
+
+JobID: 3BFF79659AB23021
+Waste Available start: 0 mL
+
+____
+Last printed layer: 543 @ 20201114::20:08 
+Binder usage for this job:  115.3 mL
+____
+
+  Clear Binder useage =  0.0000 ml  0.0 %  (            0 drops )
+Waste Available end: 0 mL
+
+----------------
+Compute time: 00::05::13
+Wait time: 03::59::44
+
+----------------
+
+
+Finished @ 20201114::20:08 
+
+Duration: 4 hours 5 mins 9 secs

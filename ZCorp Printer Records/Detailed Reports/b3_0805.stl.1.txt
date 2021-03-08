@@ -1,0 +1,44 @@
+3DPrint Version 1.03.8
+Path: C:\Users\rvarin\Desktop\b3_0805.stl
+Model: b3_0805.stl                         9.90	 6.14	 6.40	287.76	106.34
+
+--------------
+Monochrome mode
+Estimated Time: 10 hours 23 mins
+Estimated   Clear Binder useage = 335.7412 ml
+--------------
+Started @ 20200805::11:49 
+Firmware Version: 8.164.0.0
+Bleed Compensation ON
+Start layer: 27
+End layer: 1628
+Total number of layers: 1602
+Printer: 169.254.49.180 : ZPrinter 350 
+Computer: SB-125 
+Base Powder: ZP151
+Powder Type: ZP151
+Shell Saturation: 100%   Binder/Volume: 0.244
+Core Saturation: 100%   Binder/Volume: 0.122
+Colorfix file: 
+
+JobID: 6F0BB975A733CDD7
+Waste Available start: 0 mL
+
+____
+Last printed layer: 1629 @ 20200805::23:23 
+Binder usage for this job:  403.1 mL
+____
+
+  Clear Binder useage = 402.7766 ml 40.3 %  (  21198767792 drops )
+Waste Available end: 0 mL
+
+----------------
+Compute time: 00::51::16
+Wait time: 10::41::59
+
+----------------
+
+
+Finished @ 20200805::23:25 
+
+Duration: 11 hours 35 mins 48 secs

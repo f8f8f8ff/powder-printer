@@ -1,0 +1,4 @@
+Build Date	Time	Job Pixels	Fed	Error	Max	Min	Vol	Area	Shell	Core	Thickness	Name	Version	Powder	Color/Mono	ToolComp	Est Time	Est Pixels	Head0	Comments
+
+7/8/2020	24	3.94e+008	0.00	0	71	25	0.37	3.67	1.17	0.58	0.0040	tree-hole.stl	1.03.8	ZP151	Mono	Y	23	0.0	2.34548124e+010	
+7/14/2020	7	0.00e+000	0.00	2	0	0	71.41	198.55	1.17	0.58	0.0040	A3_0713.stl	1.03.8	ZP151	Mono	Y	456	0.0	2.35927107e+010	
