@@ -4,3 +4,5 @@ Usage is:
 `./main [-v] [-o output.csv] "ZCorp Printer Records/Detailed Reports"/*`
 
 Default output is "output.csv".
+
+To build, `make main`.
