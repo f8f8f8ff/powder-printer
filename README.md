@@ -5,4 +5,4 @@ Usage is:
 
 Default output is "output.csv".
 
-To build, `make powderlog`.
+To build, `make`.
